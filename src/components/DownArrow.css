@@ -21,3 +21,27 @@
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 }
+
+.techStackBox{
+    margin-top: -1.5px;
+    background: linear-gradient(
+        to bottom right,
+        #6889FF, #C668FF
+    );
+}
+
+.techStack{
+    color: white;
+    border: 1px solid #403F44;
+    border-radius: 10px;
+    min-width: 30px;
+    max-width: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 10px;
+    background: linear-gradient(
+        to bottom right,
+        #403F44, #1E1B32
+    );
+    box-shadow: 2px 2px 2px #403F44;
+}

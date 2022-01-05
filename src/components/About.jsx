@@ -27,22 +27,23 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     <Text fontSize='20px'>
                         <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.</Text>
                 </Box>
-            </SimpleGrid> :
+            </SimpleGrid> 
+            :
             <SimpleGrid columns={1} spacing={0}>
             <Box>
                 <Image 
-                    boxSize='500px'
+                    boxSize='300px'
                     objectFit='cover'
                     borderRadius='80% 30% / 40% 50%'
                     src="Taher-Profile-Pic.jpg" alt='Taher Ahmed' />
             </Box>
-            <Box color='white'minW={500}>
+            <Box color='white' minW={300}>
                 <Text fontFamily='helvetica'>
-                    Hi I'm<strong style={{fontSize: "50px"}}> Taher Ahmed</strong>
+                    Hi I'm<strong style={{fontSize: "40px", color:"#6889FF"}}> Taher Ahmed</strong>
                 </Text>
                 
-                <Text fontSize='20px'>
-                    <strong>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.</Text>
+                <Text fontSize='16px'>
+                    <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.</Text>
             </Box>
         </SimpleGrid>
             }
