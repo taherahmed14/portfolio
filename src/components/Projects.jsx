@@ -1,7 +1,6 @@
-import { Center, Container, Heading, Box, SimpleGrid, Image, Link, Text, AspectRatio  } from "@chakra-ui/react";
+import { Center, Container, Heading, Box, SimpleGrid, Image, Link, Text } from "@chakra-ui/react";
 import "./DownArrow.css";
 import { useMediaQuery } from '@chakra-ui/react';
-import demo from "./demo.mp4";
 import "./Video.css";
 import { useState } from "react";
 import { DemoVideoOne, DemoVideoTwo, DemoVideoThree } from "./DemoVideo";

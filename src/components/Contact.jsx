@@ -1,6 +1,5 @@
 import { Box, Center, Container, Heading, SimpleGrid, Link, Text } from "@chakra-ui/react";
 import { BsChevronDoubleUp } from 'react-icons/bs';
-import { AiFillLinkedin } from 'react-icons/ai';
 import { useMediaQuery } from '@chakra-ui/react';
 import "./ContactButton.css";
 
