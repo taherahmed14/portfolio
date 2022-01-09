@@ -10,7 +10,7 @@ export const Blogs = ({ blogRef }) => {
             {isLargerThan1200 ? 
                 <Container mt={150} mb={150} ref={blogRef}>
                     <Center>
-                        <Heading color='#C668FF' borderBottom='2px solid #6889FF' width={100} alignContent='center'>Blogs</Heading>
+                        <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={100} alignContent='center'>Blogs</Heading>
                     </Center>
     
                     <Center mt={60}>

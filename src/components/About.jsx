@@ -1,7 +1,8 @@
-import { Box, Center, SimpleGrid, Image, Text } from '@chakra-ui/react';
+import { Box, Center, SimpleGrid, Image, Text, Link } from '@chakra-ui/react';
 import { useMediaQuery } from '@chakra-ui/react';
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import "./DownArrow.css";
+import "./ResumeButton.css";
 
 export const AboutMe = ({ skillsRef, aboutRef }) => {
     const [isLargerThan900] = useMediaQuery('(min-width: 900px)');
@@ -25,7 +26,13 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     </Text>
                     
                     <Text fontSize='20px'>
-                        <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.</Text>
+                        <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.
+                    </Text>
+
+                    <Link margin="auto" className='link' href="https://drive.google.com/file/d/1ol6jfIdTra58KKPAd7P7q8H4LG_Oy7HP/view?usp=sharing" target='_blank'>
+                        <span>Resume</span>
+                        <div class="wave"></div>
+                    </Link>
                 </Box>
             </SimpleGrid> 
             :
@@ -43,11 +50,17 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                 </Text>
                 
                 <Text fontSize='16px'>
-                    <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.</Text>
+                    <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> who focuses on writting clean, elegant and efficient code.
+                </Text>
+
+                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1ol6jfIdTra58KKPAd7P7q8H4LG_Oy7HP/view?usp=sharing">
+                    <span>Resume</span>
+                    <div class="wave"></div>
+                </Link>
             </Box>
         </SimpleGrid>
             }
-            <Box mt={600} pos="absolute">
+            <Box mt={700} pos="absolute">
                 <BsChevronDoubleDown 
                     color='#C668FF'    
                     size={40} 
