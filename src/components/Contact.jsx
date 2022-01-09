@@ -1,5 +1,5 @@
 import { Box, Center, Container, Heading, SimpleGrid, Link, Text, Popover, 
-    PopoverTrigger, Button, PopoverContent, PopoverArrow, PopoverCloseButton, PopoverHeader, PopoverBody } from "@chakra-ui/react";
+    PopoverTrigger, Button, PopoverContent, PopoverArrow, PopoverHeader, PopoverBody } from "@chakra-ui/react";
 import { BsChevronDoubleUp } from 'react-icons/bs';
 import { useMediaQuery } from '@chakra-ui/react';
 import "./ContactButton.css";
