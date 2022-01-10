@@ -16,7 +16,7 @@ export const DemoVideoOne = ({ closeDemoVideoOne }) => {
     return (
         <>
             {closeVideoOne ? 
-                <Box border='1px solid #C668FF' width={800} height={500} position='absolute' marginTop='-33.5%' marginLeft='13.5%' zIndex={10000}> 
+                <Box border='1px solid #C668FF' width={800} height={500} position='absolute' marginTop='-33.5%' marginLeft='-0.5%' zIndex={10000}> 
                 <Box className="button" ml='46.5%' mt='-29.5%' zIndex={100000} onClick={ handleCloseVideoOne }>
                     Close
                 </Box>
@@ -68,7 +68,7 @@ export const DemoVideoThree = ({ closeDemoVideoThree }) => {
     return (
         <>
             {closeVideoThree ? 
-                <Box border='1px solid #C668FF' width={800} height={500} position='absolute' marginTop='-33.5%' marginLeft='-39.8%' zIndex={10000}> 
+                <Box border='1px solid #C668FF' width={800} height={500} position='absolute' marginTop='-33.5%' marginLeft='-27%' zIndex={10000}> 
                 <Box className="button" ml='46.5%' mt='-29.5%' zIndex={100000} onClick={ handleCloseVideoThree }>
                     Close
                 </Box>

@@ -3,22 +3,22 @@ import "./DownArrow.css";
 import { useMediaQuery } from '@chakra-ui/react';
 import "./Video.css";
 import { useState } from "react";
-import { DemoVideoOne, DemoVideoTwo, DemoVideoThree } from "./DemoVideo";
+import { DemoVideoOne, DemoVideoThree } from "./DemoVideo";
 import "./Projects.css";
 
 export const Projects = ({ projectRef }) => {
     const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)');
     const [showVideoOne, setShowVideoOne] = useState(false);
-    const [showVideoTwo, setShowVideoTwo] = useState(false);
+    // const [showVideoTwo, setShowVideoTwo] = useState(false);
     const [showVideoThree, setShowVideoThree] = useState(false);
 
     const closeDemoVideoOne = () => {
         setShowVideoOne(false);
     }
 
-    const closeDemoVideoTwo = () => {
-        setShowVideoTwo(false);
-    }
+    // const closeDemoVideoTwo = () => {
+    //     setShowVideoTwo(false);
+    // }
 
     const closeDemoVideoThree = () => {
         setShowVideoThree(false);
@@ -33,7 +33,7 @@ export const Projects = ({ projectRef }) => {
             </Center>
             {/* minW={300} borderRadius='20px' _hover={{ boxShadow: '0 0 8px #6889FF' }} */}
             <Center mt={60}>
-                <SimpleGrid columns={3} spacing={30}>
+                <SimpleGrid columns={2} spacing={30}>
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
                             <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="groww-project.png" alt="groww-project" />
@@ -75,7 +75,7 @@ export const Projects = ({ projectRef }) => {
                         {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null}
                     </Container>
 
-                    <Container className="projectCard">
+                    {/* <Container className="projectCard">
                         <Box borderRadius='20px'>
                             <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="groww-project.png" alt="adidas-project" />
                         </Box>
@@ -115,7 +115,7 @@ export const Projects = ({ projectRef }) => {
                             </Box>
                         </Box>
                         {showVideoTwo ? <DemoVideoTwo closeDemoVideoTwo={closeDemoVideoTwo} /> : null}
-                    </Container>
+                    </Container> */}
 
                     <Container className="projectCard">
                         <Box borderRadius='20px'> 
@@ -211,7 +211,7 @@ export const Projects = ({ projectRef }) => {
                             {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
                         </Container>
 
-                        <Container className="projectCard">
+                        {/* <Container className="projectCard">
                             <Box borderRadius='20px'>
                                 <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="groww-project.png" alt="adidas-project" />
                             </Box>
@@ -241,17 +241,17 @@ export const Projects = ({ projectRef }) => {
                                         border='2px solid #C668FF' target='_blank'
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Website
-                                    </Link>    
+                                    </Link>     */}
                                     {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
                                         border='2px solid #C668FF'
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         onClick={() => setShowVideoTwo(true)}>
                                         Demo
                                     </Link> */}
-                                </Box>
+                                {/* </Box>
                             </Box>
                             {/* {showVideoTwo ? <DemoVideoTwo closeDemoVideoTwo={closeDemoVideoTwo} /> : null} */}
-                        </Container>
+                        {/* </Container> */}
 
                         <Container className="projectCard">
                             <Box borderRadius='20px'> 

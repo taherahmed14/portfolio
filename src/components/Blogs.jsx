@@ -15,7 +15,7 @@ export const Blogs = ({ blogRef }) => {
     
                     <Center mt={60}>
                         <SimpleGrid columns={3} spacing={50}>
-                            <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+                            <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                                 href="https://medium.com/@taherahmed.sj.95/cloning-adidas-com-adidas-page-which-was-not-developed-by-the-adidas-team-85cb705419e5"
                                 _hover={{ opacity: '0.5' }}>
                                 <Box>
@@ -34,7 +34,7 @@ export const Blogs = ({ blogRef }) => {
                                 </Box>
                             </Link>
         
-                            <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+                            <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                                 href="https://medium.com/@taherahmed.sj.95/cloning-of-groww-webpage-in-5-days-c9794fd4ef63"
                                     _hover={{ opacity: '0.5' }}>
                                 <Box>
@@ -52,8 +52,8 @@ export const Blogs = ({ blogRef }) => {
                                 </Text>
                             </Box>
                         </Link>
-
-                        <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+ 
+                        <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                             href="https://medium.com/@taherahmed.sj.95/hi-node-js-i-have-added-you-in-my-project-fe1cd7c14199"
                                 _hover={{ opacity: '0.5' }}>
                             <Box>
@@ -82,7 +82,7 @@ export const Blogs = ({ blogRef }) => {
     
                 <Center mt={60}>
                 <SimpleGrid columns={1} spacing={30}>
-                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                         href="https://medium.com/@taherahmed.sj.95/cloning-adidas-com-adidas-page-which-was-not-developed-by-the-adidas-team-85cb705419e5"
                         _hover={{ opacity: '0.5' }}>
                         <Box>
@@ -101,7 +101,7 @@ export const Blogs = ({ blogRef }) => {
                         </Box>
                     </Link>
 
-                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                         href="https://medium.com/@taherahmed.sj.95/cloning-of-groww-webpage-in-5-days-c9794fd4ef63"
                         _hover={{ opacity: '0.5' }}>
                         <Box>
@@ -120,7 +120,7 @@ export const Blogs = ({ blogRef }) => {
                         </Box>
                     </Link>
 
-                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none'
+                    <Link minW={300} borderBottom='1px solid gray' cursor='pointer' textDecoration='none' target='_blank'
                         href="https://medium.com/@taherahmed.sj.95/hi-node-js-i-have-added-you-in-my-project-fe1cd7c14199"
                             _hover={{ opacity: '0.5' }}>
                         <Box>
