@@ -56,7 +56,7 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
                 </Text>
 
-                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1Y3gRMSvjLmbHGlM0oLuLa7uAaT8eLYBP/view?usp=sharing">
+                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1Y3gRMSvjLmbHGlM0oLuLa7uAaT8eLYBP/view?usp=sharing" target='_blank' >
                     <span>Resume</span>
                     <div class="wave"></div>
                 </Link>
