@@ -183,7 +183,12 @@ export const Projects = ({ projectRef }) => {
                                     border='2px solid #C668FF' target='_blank'
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
-                                </Link>    
+                                </Link>   
+                                <Link href="https://drive.google.com/file/d/1waN9WZhYN93fxMGT7kxL2yGVsC_nhoYm/view?usp=sharing" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link> 
                             </Box>
                         </Box>
                     </Container>
@@ -351,6 +356,11 @@ export const Projects = ({ projectRef }) => {
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
                                 </Link>    
+                                <Link href="https://drive.google.com/file/d/1waN9WZhYN93fxMGT7kxL2yGVsC_nhoYm/view?usp=sharing" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link> 
                             </Box>
                         </Box>
                     </Container>
