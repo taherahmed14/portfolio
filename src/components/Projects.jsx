@@ -33,7 +33,7 @@ export const Projects = ({ projectRef }) => {
             </Center>
             {/* minW={300} borderRadius='20px' _hover={{ boxShadow: '0 0 8px #6889FF' }} */}
             <Center mt={60}>
-                <SimpleGrid columns={3} spacing={30}>
+                <SimpleGrid columns={2} spacing={30}>
                     <Container className="projectCard">
                         <Box borderRadius='20px'>
                             <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="groww-project.png" alt="groww-project" />
@@ -49,7 +49,7 @@ export const Projects = ({ projectRef }) => {
                                 <Text className="techStack">HTML</Text>
                                 <Text className="techStack">CSS</Text>
                                 <Text className="techStack">JS</Text>
-                                <Text className="techStack">Node</Text>
+                                <Text className="techStack">Express</Text>
                                 <Text className="techStack">MongoDb</Text>
                             </Box>
 
@@ -64,12 +64,11 @@ export const Projects = ({ projectRef }) => {
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
                                 </Link>    
-                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF'
-                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
-                                    onClick={() => setShowVideoOne(true)}>
+                                <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/241507/413151/b17d03a8297593cb103397b8b7ab8574/Groww%20Project%20Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
                                     Demo
-                                </Link> */}
+                                </Link>
                             </Box>
                         </Box>
                         {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
@@ -104,12 +103,52 @@ export const Projects = ({ projectRef }) => {
                                     _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                     >Website
                                 </Link>    
-                                {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                    border='2px solid #C668FF'
-                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
-                                    onClick={() => setShowVideoThree(true)}>
+                                <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/224465/399824/013387cf0fb4e53e6908d443d12760ee/CSBT%20Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
                                     Demo
-                                </Link> */}
+                                </Link>
+                            </Box>
+                        </Box>
+                        {/* {showVideoThree ? <DemoVideoThree closeDemoVideoThree={closeDemoVideoThree} /> : null} */}
+                    </Container>
+
+                    <Container className="projectCard">
+                        <Box borderRadius='20px'> 
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="nordstrom-project.png" alt="nordstrom-project" />
+                        </Box>
+
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">A full-stack clone of Nordstrom webpage developed by 4 members in time span of 6 days.
+                                    We have added features like email verification, filter products, toggle product images, delete a product from cart, validations etc. 
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">JS</Text>
+                                <Text className="techStack">React</Text>
+                                <Text className="techStack">Redux</Text>
+                                <Text className="techStack">Express</Text>
+                                <Text className="techStack">MongoDb</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/taherahmed14/nordstrom-clone" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://nordstrom-clone-sage.vercel.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/253838/422429/9dbb4ac4b92f6d85362b691ce3149ed0/Nordstrom-Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link>
                             </Box>
                         </Box>
                         {/* {showVideoThree ? <DemoVideoThree closeDemoVideoThree={closeDemoVideoThree} /> : null} */}
@@ -192,12 +231,11 @@ export const Projects = ({ projectRef }) => {
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Website
                                     </Link>    
-                                    {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF'
-                                        _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
-                                        onClick={() => setShowVideoOne(true)}>
-                                        Demo
-                                    </Link> */}
+                                    <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/241507/413151/b17d03a8297593cb103397b8b7ab8574/Groww%20Project%20Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link>
                                 </Box>
                             </Box>
                             {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
@@ -232,16 +270,56 @@ export const Projects = ({ projectRef }) => {
                                         _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
                                         >Website
                                     </Link>    
-                                    {/* <Link textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
-                                        border='2px solid #C668FF'
-                                        _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
-                                        onClick={() => setShowVideoThree(true)}>
-                                        Demo
-                                    </Link> */}
+                                    <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/224465/399824/013387cf0fb4e53e6908d443d12760ee/CSBT%20Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link>
                                 </Box>
                             </Box>
                             {/* {showVideoThree ? <DemoVideoThree closeDemoVideoThree={closeDemoVideoThree} /> : null} */}
                         </Container>
+
+                        <Container className="projectCard">
+                        <Box borderRadius='20px'> 
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={300} src="nordstrom-project.png" alt="nordstrom-project" />
+                        </Box>
+
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">A full-stack clone of Nordstrom webpage developed by 4 members in time span of 6 days.
+                                    We have added features like email verification, filter products, toggle product images, delete a product from cart, validations etc. 
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">JS</Text>
+                                <Text className="techStack">React</Text>
+                                <Text className="techStack">Redux</Text>
+                                <Text className="techStack">Express</Text>
+                                <Text className="techStack">MongoDb</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/taherahmed14/nordstrom-clone" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Code
+                                </Link>
+                                <Link href="https://nordstrom-clone-sage.vercel.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}
+                                    >Website
+                                </Link>    
+                                <Link href="https://masai-course.s3.ap-south-1.amazonaws.com/users/2068/submissions/253838/422429/9dbb4ac4b92f6d85362b691ce3149ed0/Nordstrom-Presentation.mp4" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8} 
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background:'#C668FF', color:'black' }}>
+                                    Demo
+                                </Link>
+                            </Box>
+                        </Box>
+                        {/* {showVideoThree ? <DemoVideoThree closeDemoVideoThree={closeDemoVideoThree} /> : null} */}
+                    </Container>
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'> 
